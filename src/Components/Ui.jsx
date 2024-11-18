@@ -102,7 +102,7 @@ const Ui = ({ showCanvas, setShowCanvas,toggleTheme,theme }) => {
         ref={growingSpan}
         className="growing rounded-full block fixed top-0 left-0 w-5 h-5 bg-red-500"
       ></span>
-      <div className="container absolute min-w-full min-h-full top-16 ">
+      <div className="container overflow-x-hidden absolute min-w-full  min-h-full top-16 ">
         <div className="one flex mx-[25%] my-10">
           <div className="flex flex-col">
             <div className="w-96 h-48 text-4x">
@@ -125,10 +125,10 @@ const Ui = ({ showCanvas, setShowCanvas,toggleTheme,theme }) => {
           <div className="flex min-w-full"> </div>
         </div>
         {/* ---------------------------------------------------------------------------- */}
-        <div ref={headingRef} className="two text-[14rem]">
-          Thirtysixstudio
+        <div ref={headingRef} className="two min-w-full text-[14rem] ">
+          <p>Thirtysixstudio</p>
         </div>
-        <div className="border border-b-gray-200"></div>
+        <div className="border border-b-gray-200 min-w-full"></div>
         {/* ------------------------------------------------------------------------------------ */}
         <div className="three flex mx-[10%] mt-16 mb-64  ">
           <div className="  min-w-64 text-2xl ml-60">01 —— WHAT WE DO</div>
@@ -156,7 +156,7 @@ const Ui = ({ showCanvas, setShowCanvas,toggleTheme,theme }) => {
         </div>
 
         {/* ------------------------------------------------------------------------------------ */}
-        <div className="border border-b-gray-200"></div>
+        <div className="border border-b-gray-200 min-w-full"></div>
 
         <div className="four flex flex-col mx-auto   w-[50%] mt-24 gap-12">
           <div className="font-200">

@@ -11,7 +11,7 @@ const Header = ({toggleTheme}) => {
 
   return (
     <>
-      <div className=" flex absolute h-[7vh] min-w-full z-10  justify-between items-center">
+      <div className=" flex absolute h-[7vh] min-w-[100%] p-1 z-10  justify-between items-center">
         <div className="left-nav-bar font-medium">Thirtysixstudio</div>
         <div className="middle-nav-bar border border-gray-100 w-[6vw] flex justify-evenly items-center rounded-2xl cursor-pointer">
             <div className="icon-container">
